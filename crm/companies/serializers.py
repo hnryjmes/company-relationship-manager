@@ -9,6 +9,7 @@ class CompanySerializer(serializers.HyperlinkedModelSerializer):
             "date_created",
             "company_name",
             "registered_name",
+            "name_verified",
             "email",
             "company_reference",
         ]

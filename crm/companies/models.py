@@ -5,6 +5,7 @@ class Company(models.Model):
     date_created = models.DateTimeField(auto_now_add=True)
     company_name = models.CharField(max_length=255, blank=False, default="")
     registered_name = models.CharField(max_length=255, blank=True, default="")
+    name_verified = models.BooleanField(default=False)
     email = models.CharField(max_length=255, blank=True, default="")
     company_reference = models.CharField(max_length=255, blank=False, default="")
 
