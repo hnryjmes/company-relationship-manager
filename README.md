@@ -36,6 +36,15 @@ You can run tests using pytest from a running Docker container using the `test.s
 ./test.sh
 ```
 
+### Seeding the database
+
+If you want to seed the production database with dummy data from fixtures, for example if you are using the browsable API or demonstrating the application, you can use the `seed.sh` script
+
+```
+./seed.sh
+```
+
+
 ## Tasks
 
 To see suggested development tasks, go to [TASKS.md](TASKS.md)
